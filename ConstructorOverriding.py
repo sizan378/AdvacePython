@@ -18,4 +18,13 @@ class Son(Father):
         print("Child Class Instructor Mehtod", self.money)
 
 
-c = Son()
+
+language ={
+    'szian':['Pyton','Django'],
+    'mahmud':['javaScript','Nodejs'],
+    'aother':'c++'
+}
+for name,laguages in language.items():
+    print(f"{name.title()}'s favorite language are:")
+    for talk in laguages:
+        print(f"{talk.title()}")
